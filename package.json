@@ -1,0 +1,40 @@
+{
+    "name": "bcore.rabbitmq.client",
+    "version": "1.0.0",
+    "description": "bcore微服务--rabbitmq客户端",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "engines": {
+        "node": ">=7.10.0"
+    },
+    "scripts": {
+        "test": "mocha test/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/buns-li/bcore.rabbitmq.client.git"
+    },
+    "keywords": [
+        "bcore",
+        "rabbitmq"
+    ],
+    "author": {
+        "name": "buns_zpli",
+        "email": "zpli_buns@126.com",
+        "url": "https://github.com/buns-li"
+    },
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/buns-li/bcore.rabbitmq.client/issues"
+    },
+    "homepage": "https://github.com/buns-li/bcore.rabbitmq.client#readme",
+    "dependencies": {
+        "amqplib": "^0.5.1"
+    },
+    "devDependencies": {
+        "mocha": "^3.4.2",
+        "should": "^11.2.1"
+    }
+}
